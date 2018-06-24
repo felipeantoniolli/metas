@@ -4,7 +4,7 @@
     "type": "module",
     "authors": [
         {
-            "name": "fleipe antoniolli",
+            "name": "felipe antoniolli",
             "email": "contato.felipetrindade@gmail.com"
         }
     ],
@@ -13,5 +13,7 @@
             "Metas\\": "controllers/" 
         }
     },
-    "require": {}
+    "require": {
+        "felipeantoniolli/metas": "^1.0"
+    }
 }
