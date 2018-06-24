@@ -1,0 +1,12 @@
+{
+    "name": "felipeantoniolli/metas",
+    "description": "esse e um modulo hmvc de metas para ser usado no codeigniter",
+    "type": "module",
+    "authors": [
+        {
+            "name": "fleipe antoniolli",
+            "email": "contato.felipetrindade@gmail.com"
+        }
+    ],
+    "require": {}
+}
