@@ -7,7 +7,7 @@ class Metas extends MY_Controller{
     public function __construct(){
         parent::__construct();
         $this->load->model('MetasModel', 'metas');
-        $this->menu_itens = $this->model->get_menu_itens();
+        $this->menu_itens = $this->metas->get_menu_itens();
     }
 
     /**
