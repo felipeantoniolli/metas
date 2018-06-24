@@ -16,19 +16,19 @@ class ConfigTableBuilder extends ConfigBuilder{
         // parâmetros específicos de configuração
         $data = array(
             array(
-                'nome' => $this->prefix.'habilitado', 
+                'nome' => 'mod_metas_habilitado', 
                 'valor' => true,
                 'descricao' => 'Indica se o sprint ta iniciado ou não',
                 'admin_only' => 0
             ),
             array(
-                'nome' => $this->prefix.'nummetas', 
+                'nome' => 'mod_metas_nummetas', 
                 'valor' => 10,
                 'descricao' => 'Determina o valor de metas no sprint',
                 'admin_only' => 0
             ),
             array(
-                'nome' => $this->prefix.'delhabilitado', 
+                'nome' => 'mod_metas_delhabilitado', 
                 'valor' => true,
                 'descricao' => 'Define se pode deletar ou não',
                 'admin_only' => 0

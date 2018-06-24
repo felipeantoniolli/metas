@@ -18,13 +18,13 @@ class MenuTableBuilder extends MenuBuilder{
             array(
                 'label'  => 'Inicio', 
                 'link'   => $this->mod_name,
-                'name'   => $this->mod_name.'inicio',
+                'name'   => $this->prefix.'inicio',
                 'module' => $this->mod_name
             ),
             array(
                 'label'  => 'Inserir', 
                 'link'   => $this->mod_name.'/inserir',
-                'name'   => $this->mod_name.'sprint',
+                'name'   => $this->prefix.'sprint',
                 'module' => $this->mod_name
             ),
         );
